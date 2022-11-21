@@ -8,6 +8,12 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
 }
 
+.container {
+  width: 1200px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--black);
@@ -21,9 +27,11 @@ body {
   color: var(--blue);
   text-decoration: none;
 }
+
 .nav-list {
   list-style: none;
   text-decoration: none;
+  display: flex;
 }
 
 .nav-list a {
@@ -41,6 +49,7 @@ body {
 .studio-black {
   color: var(--black);
 }
+
 .contacts-header a {
   color: var(--grey);
   text-decoration: none;
@@ -49,8 +58,14 @@ body {
 .contacts-header a:focus {
   color: var(--blue);
 }
+h1 {
+  width: 696px;
+  height: 120px;
+  margin-left: 452px;
+}
 .page-theme {
   background-color: #2f303a;
+  text-align: center;
 }
 .page-theme h1 {
   font-size: 44px;
@@ -90,10 +105,18 @@ body {
 
 .articles {
   list-style: none;
-
+  display: flex;
+}
+p {
+  widht: 270px;
+  height: 75px;
 }
 
-.secondary, .portfolio{background-color:#E5E5E5;}
+h2 {
+  text-align: center;
+  padding-top: 94px;
+}
+
 .secondary h2 {
   font-size: 36px;
   font-weight: 700;
@@ -103,15 +126,26 @@ body {
 .secondary ul {
   list-style: none;
 }
-.team{background-color: #F5F4FA;}
+.picture {
+  display: flex;
+  padding-bottom: 94px;
+  padding-left: 0;
+  justify-content: space-between;
+}
+.team {
+  background-color: #f5f4fa;
+}
+
 .team h2 {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  padding-top: 94px;
 }
 
 .team ul {
   list-style: none;
+  display: flex;
 }
 .button {
   width: 77px;
