@@ -49,10 +49,14 @@ body {
 .contacts-header a:focus {
   color: var(--blue);
 }
+.page-theme {
+  background-color: #2f303a;
+}
 .page-theme h1 {
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
+  color: var(--white);
 }
 .page-theme input {
   font-family: "Roboto";
@@ -86,8 +90,10 @@ body {
 
 .articles {
   list-style: none;
+
 }
 
+.secondary, .portfolio{background-color:#E5E5E5;}
 .secondary h2 {
   font-size: 36px;
   font-weight: 700;
@@ -97,7 +103,16 @@ body {
 .secondary ul {
   list-style: none;
 }
+.team{background-color: #F5F4FA;}
+.team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 
+.team ul {
+  list-style: none;
+}
 .button {
   width: 77px;
   height: 26px;
