@@ -19,7 +19,6 @@ header {
   margin-left: 215px;
   margin-right: 215px;
   padding-left: 0;
-
 }
 
 body {
@@ -65,10 +64,9 @@ nav {
 }
 .contacts-header {  
   display: flex;
-  justify-content: space-evenly;
   margin-left: 0;
-  padding-left: 371px;
-  padding-left: 0;
+  gap:50px
+  
 }
 .contacts-header a {
   color: var(--grey);
@@ -144,7 +142,7 @@ section {
 p {
   text-align: left;
 }
-
+.secondary{padding-top: 0;}
 .secondary h2 {
   font-size: 36px;
   font-weight: 700;
@@ -164,7 +162,6 @@ p {
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -293,6 +290,8 @@ figcaption {
 
 .ending {
   background-color: var(--background-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .ending ul {
   list-style: none;
