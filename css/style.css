@@ -75,6 +75,12 @@ nav {
 .contacts-header a:focus {
   color: var(--blue);
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+}
 h1 {
   width: 696px;
   height: 120px;
@@ -130,10 +136,12 @@ section {
 .articles {
   list-style: none;
   display: flex;
+  justify-content: space-evenly;
 }
 p {
   width: 270px;
   height: 75px;
+  text-align: left;
 }
 
 h2 {
@@ -152,10 +160,11 @@ h2 {
   padding-bottom: 0;
 }
 .picture {
-  display: flex;
   padding-bottom: 94px;
   padding-left: 0;
   justify-content: space-between;
+  display: flex;
+  text-align: center;
 }
 .team {
   background-color: #f5f4fa;
@@ -180,9 +189,9 @@ h2 {
 
 .team ul {
   list-style: none;
+  justify-content: space-between;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  text-align: center;
 }
 
 .button {
@@ -206,23 +215,22 @@ h2 {
 
 .buttons {
   list-style: none;
-  display: flex;
   justify-content: space-evenly;
+  display: flex;
   width: 572px;
   height: 54px;
-  padding-left: 0;
-  padding-top: 100px;
-  margin: auto;
+  align-items: center;
+
 }
 .portfolio {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
+  align-items: center;
   padding-left: 0;
   gap: 30px;
-  margin: 0;
-  padding-bottom: 94px;
-  padding-top: 56px;
+  
 }
 
 figcaption {
@@ -256,7 +264,7 @@ figcaption {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  padding-top: 20px;
+  
 }
 
 .lower-text {
@@ -264,7 +272,7 @@ figcaption {
   font-weight: 400;
   color: var(--grey);
   letter-spacing: 0.03em;
-  text-align: center;
+  
 }
 .lower {
   font-family: "Roboto";
