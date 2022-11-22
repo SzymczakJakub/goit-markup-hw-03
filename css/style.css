@@ -181,6 +181,7 @@ h2 {
   outline: none;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .button:hover,
@@ -285,4 +286,5 @@ padding-top: 20px;}
 .ending ul {
   list-style: none;
   font-style: normal;
+  padding:0
 }
