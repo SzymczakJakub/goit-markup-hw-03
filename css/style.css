@@ -8,8 +8,12 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
 }
 
-header{border: 1px solid #ECECEC;}
-
+header {
+  border: 1px solid #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   width: 1200px;
   margin-left: 215px;
@@ -30,10 +34,16 @@ body {
   color: var(--blue);
   text-decoration: none;
 }
-
+nav {
+  display: flex;
+}
 .nav-list {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  width: 261px;
+  height: 16px;
+  justify-content: space-between;
 }
 
 .nav-list a {
@@ -52,7 +62,10 @@ body {
   color: var(--black);
 }
 .contacts-header {
-  text-align: right;
+  width: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 270px;
 }
 .contacts-header a {
   color: var(--grey);
@@ -169,6 +182,7 @@ h2 {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .button {
@@ -192,17 +206,13 @@ h2 {
 
 .buttons {
   list-style: none;
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   width: 572px;
   height: 54px;
   padding-left: 0;
   padding-top: 100px;
-  margin: auto
-  
-;
-  
-
+  margin: auto;
 }
 .portfolio {
   list-style: none;
@@ -213,7 +223,6 @@ h2 {
   margin: 0;
   padding-bottom: 94px;
   padding-top: 56px;
-
 }
 
 figcaption {
@@ -222,8 +231,9 @@ figcaption {
   background-color: var(--white);
 }
 
-.portfolio figure{  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+.portfolio figure {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   margin: 0;
   width: 370px;
   height: 404px;
@@ -239,28 +249,31 @@ figcaption {
   letter-spacing: 0.03em;
   padding-top: 30px;
 }
-.upper{ font-family: 'Roboto';
+.upper {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-padding-top: 20px;}
+  padding-top: 20px;
+}
 
-.lower-text{
+.lower-text {
   font-size: 16;
   font-weight: 400;
   color: var(--grey);
   letter-spacing: 0.03em;
   text-align: center;
-  
 }
-.lower{font-family: 'Roboto';
+.lower {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.03em;}
+  letter-spacing: 0.03em;
+}
 
 .localization {
   color: var(--white);
@@ -286,5 +299,5 @@ padding-top: 20px;}
 .ending ul {
   list-style: none;
   font-style: normal;
-  padding:0
+  padding: 0;
 }
