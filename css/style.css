@@ -8,6 +8,8 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
 }
 
+header{border: 1px solid #ECECEC;}
+
 .container {
   width: 1200px;
   margin-left: 215px;
@@ -117,13 +119,13 @@ section {
   display: flex;
 }
 p {
-  widht: 270px;
+  width: 270px;
   height: 75px;
 }
 
 h2 {
   text-align: center;
-  margin:0
+  margin: 0;
 }
 
 .secondary h2 {
@@ -145,15 +147,14 @@ h2 {
 .team {
   background-color: #f5f4fa;
   padding-top: 0;
-
 }
-figure {
+.team figure {
   margin: 0;
   height: 368px;
   background-color: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px ;
-  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team h2 {
   font-size: 36px;
@@ -190,36 +191,76 @@ figure {
 
 .buttons {
   list-style: none;
+  display:flex;
+  justify-content: space-evenly;
+  width: 572px;
+  height: 54px;
+  padding-left: 0;
+  padding-top: 100px;
+  margin: auto
+  
+;
+  
+
 }
 .portfolio {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 30px;
+  margin: 0;
+  padding-bottom: 94px;
+  padding-top: 56px;
+
 }
+
 figcaption {
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  justify-content: center;
 }
-.upper-text{font-family: 'Roboto';
+
+.portfolio figure{  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  margin: 0;
+  width: 370px;
+  height: 404px;
+}
+
+.upper-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  letter-spacing: 0.03em;}
-.lower-text{text-align: center;}
-.upper-text {
-  font-size: 16;
-  font-weight: 500;
   letter-spacing: 0.03em;
+  padding-top: 30px;
 }
+.upper{ font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+padding-top: 20px;}
 
-.lower-text {
+.lower-text{
   font-size: 16;
   font-weight: 400;
   color: var(--grey);
   letter-spacing: 0.03em;
+  text-align: center;
+  
 }
+.lower{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;}
+
 .localization {
   color: var(--white);
   text-decoration: none;
