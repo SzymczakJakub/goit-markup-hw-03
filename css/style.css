@@ -10,17 +10,20 @@
 
 header {
   border: 1px solid #ececec;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container {
-  width: 1200px;
-  margin-left: 215px;
-  margin-right: 215px;
-  padding-left: 0;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--black);
@@ -33,19 +36,31 @@ body {
   font-size: 26px;
   color: var(--blue);
   text-decoration: none;
+  margin-right: 95px;
 }
-nav {
-  display: flex;
-}
-.nav-list {
+ul {
   list-style: none;
-  text-decoration: none;
+  padding: 0;
+}
+
+.header {
   display: flex;
-  width: 261px;
-  height: 16px;
+  align-items: center;
   justify-content: space-between;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 46px;
+}
 
 .nav-list a {
   font-family: "roboto", sans-serif;
@@ -62,12 +77,7 @@ nav {
 .studio-black {
   color: var(--black);
 }
-.contacts-header {  
-  display: flex;
-  margin-left: 0;
-  gap:50px
-  
-}
+
 .contacts-header a {
   color: var(--grey);
   text-decoration: none;
@@ -79,9 +89,6 @@ nav {
 
 .page-theme {
   background-color: #2f303a;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
@@ -90,8 +97,6 @@ nav {
   font-weight: 900;
   letter-spacing: 0.06em;
   color: var(--white);
-  justify-content: center;
-
 }
 .page-theme input {
   font-family: "Roboto";
@@ -109,12 +114,12 @@ nav {
   cursor: pointer;
 }
 section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
+}
+.articles {
   display: flex;
-  flex-direction: column;
-  text-align: center;
   justify-content: center;
+  text-align: left;
 }
 
 .articles h3 {
@@ -131,61 +136,52 @@ section {
   letter-spacing: 0, 03em;
   color: var(--grey);
 }
-
-.articles {
-  list-style: none;
+.secondary {
   display: flex;
-  justify-content: space-evenly;
-  
- 
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-p {
-  text-align: left;
-}
-.secondary{padding-top: 0;}
+
 .secondary h2 {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
-}
-
-.secondary ul {
-  list-style: none;
-  padding-bottom: 0;
+  padding-bottom: 50px;
 }
 
 .picture {
-  padding-bottom: 94px;
-  padding-left: 0;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-evenly;
+  gap:30px
 }
+
 .team {
   background-color: #f5f4fa;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
+.team-pictures {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
 .team figure {
-  margin: 0;
-  height: 368px;
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team h2 {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
-}
-
-.team ul {
-  list-style: none;
-  justify-content: space-between;
-  display: flex;
-  text-align: center;
+  padding-bottom: 50px;
 }
 
 .button {
@@ -206,34 +202,25 @@ p {
 
 .buttons {
   list-style: none;
+  align-items: center;
+  text-align: center;
   justify-content: center;
   display: flex;
-  align-items: center;
-  gap:8px
+  gap: 8px;
 }
-.portfolio {
+.portfolio{
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  align-items: center;
-  padding-left: 0;
-  gap: 30px;
-  justify-content: center;
 }
 
 figcaption {
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  padding-bottom: 30px;
 }
 
 .portfolio figure {
   background: var(--white);
   border: 1px solid #eeeeee;
-  margin: 0;
-  width: 370px;
-  height: 404px;
 }
 
 .upper-text {
@@ -294,7 +281,5 @@ figcaption {
   padding-bottom: 60px;
 }
 .ending ul {
-  list-style: none;
   font-style: normal;
-  padding: 0;
 }
