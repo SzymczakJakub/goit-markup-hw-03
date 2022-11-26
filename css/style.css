@@ -257,9 +257,8 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-top: 20px;
-  border-style: none solid solid solid;
-  border-color: #eeeeee;
-  border-width: 1px;
+  border: 1px solid #eee;
+  border-top: none;
 }
 
 .portfolio figure {
