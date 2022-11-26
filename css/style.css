@@ -11,10 +11,6 @@
 header {
   border-bottom: 1px solid #ececec;
 }
-.header {
-  height: 80px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -23,12 +19,12 @@ header {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 h1,
 h2,
 h3,
-p,
-ul {
+p {
   margin: 0;
 }
 body {
@@ -94,16 +90,18 @@ body {
 .contacts-header a:focus {
   color: var(--blue);
 }
-
+.section {
+  padding: 94px 0;
+}
 .page-theme {
   background-color: #2f303a;
-  height: 600px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+  padding-bottom: 0;
 }
 
 .page-theme h1 {
@@ -112,8 +110,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--white);
   width: 696px;
-  height: 120px;
-  margin: 200px 252px 0 252px;
+  margin: 106px 252px 0 252px;
 }
 .page-theme input {
   font-family: "Roboto";
@@ -130,9 +127,7 @@ body {
   border: none;
   cursor: pointer;
 }
-.section {
-  padding: 94px 0;
-}
+
 .articles {
   display: flex;
   justify-content: center;
@@ -180,7 +175,6 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 648px;
 }
 .team-pictures {
   display: flex;
@@ -263,11 +257,13 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-top: 20px;
+  border-style: none solid solid solid;
+  border-color: #eeeeee;
+  border-width: 1px;
 }
 
 .portfolio figure {
   background: var(--white);
-  border: 1px solid #eeeeee;
   margin: 0;
   font-size: 0;
 }
@@ -306,6 +302,9 @@ body {
   letter-spacing: 0.03em;
 }
 
+.links {
+  padding-top: 20px;
+}
 .localization {
   color: var(--white);
   text-decoration: none;
@@ -321,15 +320,21 @@ body {
 
 .contacts-footer a {
   color: var(--light-grey);
-  text-decoration: none;
 }
-
+.contacts-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
 .ending {
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 252px;
 }
 .ending ul {
   font-style: normal;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
