@@ -11,12 +11,18 @@
 header {
   border-bottom: 1px solid #ececec;
 }
-.header{height:80px}
+.header {
+  height: 80px;
+}
 
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 h1,
 h2,
@@ -38,10 +44,6 @@ body {
   color: var(--blue);
   text-decoration: none;
   margin-right: 95px;
-}
-ul {
-  list-style: none;
-  padding: 0;
 }
 
 .header {
@@ -325,7 +327,7 @@ ul {
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
-  height:252px;
+  height: 252px;
 }
 .ending ul {
   font-style: normal;
