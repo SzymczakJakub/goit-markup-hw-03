@@ -40,6 +40,9 @@ body {
   color: var(--blue);
   text-decoration: none;
   margin-right: 95px;
+  margin-bottom: 25px;
+  margin-top: 24px;
+  line-height: 31px;
 }
 
 .header {
@@ -107,6 +110,7 @@ body {
 .page-theme h1 {
   font-size: 44px;
   font-weight: 900;
+  line-height: 60px;
   letter-spacing: 0.06em;
   color: var(--white);
   width: 696px;
@@ -139,6 +143,8 @@ body {
   font-size: 14px;
   letter-spacing: 0, 03em;
   justify-content: center;
+  line-height: 16px;
+  margin-bottom: 10px;
 }
 
 .articles p {
@@ -147,6 +153,7 @@ body {
   font-size: 14px;
   letter-spacing: 0, 03em;
   color: var(--grey);
+  line-height: 24px;
 }
 .secondary {
   display: flex;
@@ -159,8 +166,9 @@ body {
 .secondary h2 {
   font-size: 36px;
   font-weight: 700;
+  line-height: 42px;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .picture {
@@ -198,7 +206,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+  line-height: 42px;
 }
 
 .button {
@@ -241,7 +250,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 27px;
+  gap: 30px;
   align-content: center;
 }
 
@@ -276,6 +285,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   padding-top: 30px;
+  margin-bottom: 10px;
 }
 .upper {
   font-family: "Roboto";
@@ -291,6 +301,7 @@ body {
   font-weight: 400;
   color: var(--grey);
   letter-spacing: 0.03em;
+  line-height: 19px;
 }
 .lower {
   font-family: "Roboto";
@@ -336,4 +347,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
