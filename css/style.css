@@ -30,10 +30,7 @@ p {
   margin: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
   color: var(--black);
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .logo {
@@ -49,6 +46,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .nav {
@@ -317,17 +319,19 @@ body {
   color: var(--white);
   text-decoration: none;
   font-style: normal;
-  
 }
-.links{
+.links a {
+  font-family: "Roboto";
   font-style: normal;
-  line-height: 24px;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.links {
   padding-top: 20px;
 }
+
 .contacts-footer a:hover,
 .contacts-footer a:focus {
   color: var(--blue);
@@ -338,18 +342,17 @@ body {
 
 .contacts-footer a {
   color: var(--light-grey);
- 
-  
 }
 .contacts-footer {
   display: flex;
   flex-direction: column;
-  gap:9px;
+  gap: 9px;
 }
 .ending {
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
+  line-height: normal;
 }
 .ending ul {
   display: flex;
