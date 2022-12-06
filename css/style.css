@@ -223,7 +223,7 @@ body {
 }
 .button-index {
   font-family: "Roboto";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   outline: none;
@@ -240,6 +240,7 @@ body {
 }
 
 .buttons {
+
   list-style: none;
   align-items: center;
   text-align: center;
@@ -247,7 +248,6 @@ body {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
-  line-height: 26px;
 }
 .portfolio {
   list-style: none;
